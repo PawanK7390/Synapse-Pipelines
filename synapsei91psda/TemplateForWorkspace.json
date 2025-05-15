@@ -418,7 +418,7 @@
 						"spark.dynamicAllocation.enabled": "false",
 						"spark.dynamicAllocation.minExecutors": "2",
 						"spark.dynamicAllocation.maxExecutors": "2",
-						"spark.autotune.trackingId": "684e865c-42ba-429e-97c8-27329e0cdaa5"
+						"spark.autotune.trackingId": "4d24de5d-c732-4ff8-a1f3-51c5126224ea"
 					}
 				},
 				"metadata": {
@@ -470,14 +470,16 @@
 					},
 					{
 						"cell_type": "code",
-						"metadata": {},
+						"metadata": {
+							"collapsed": false
+						},
 						"source": [
 							"# display category and product count\r\n",
-							" df_counts = df.groupby(df.Category).count()\r\n",
-							" display(df_counts)"
+							"df_counts = df.groupby(df.Category).count()\r\n",
+							"display(df_counts)"
 						],
 						"outputs": [],
-						"execution_count": null
+						"execution_count": 5
 					}
 				]
 			},
